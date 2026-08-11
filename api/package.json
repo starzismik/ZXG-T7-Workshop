@@ -1,0 +1,17 @@
+{
+  "name": "zxg-t7-workshop-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Presence API for ZXG T7 Workshop",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0"
+  }
+}
