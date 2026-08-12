@@ -17,7 +17,7 @@ Analysez, organisez et gérez facilement vos maps Custom Zombies et vos mods dep
 <br>
 
 [![Release](https://img.shields.io/github/v/release/starzismik/ZXG-T7-Workshop?style=for-the-badge&color=2f80c9&label=VERSION)](../../releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/starzismik/ZXG-T7-Workshop/total?style=for-the-badge&color=2f80c9&label=TÉLÉCHARGEMENTS&cacheSeconds=300&v=2)](../../releases)
+[![Downloads](https://img.shields.io/github/downloads/starzismik/ZXG-T7-Workshop/total?style=for-the-badge&color=2f80c9&label=TÉLÉCHARGEMENTS&cacheSeconds=300&sync=20260812)](../../releases)
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2f80c9?style=for-the-badge&logo=windows)](#configuration-requise)
 [![Discord](https://img.shields.io/badge/Discord-ModTools%20France-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/4cb3ENTXd4)
 
