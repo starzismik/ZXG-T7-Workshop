@@ -1,6 +1,6 @@
 {
   "name": "zxg-t7-workshop-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Presence API for ZXG T7 Workshop",
   "main": "src/server.js",

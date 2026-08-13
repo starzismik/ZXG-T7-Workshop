@@ -125,7 +125,7 @@ La langue peut être modifiée directement depuis les paramètres.
 ## Installation
 
 1. Ouvrez la page des [releases GitHub](../../releases/latest).
-2. Téléchargez **`[ZXG] T7 Workshop - 1.0.0.exe`**.
+2. Téléchargez **`[ZXG] T7 Workshop - 1.0.1.exe.zip`**, puis extrayez complètement l’archive.
 3. Vérifiez que Steam est démarré.
 4. Lancez l’exécutable.
 
@@ -196,7 +196,7 @@ Windows SmartScreen peut afficher un avertissement lors du premier lancement si 
 
 Développé avec passion par **STARZISMIK**
 
-**[ZXG] T7 Workshop — Version 1.0.0**
+**[ZXG] T7 Workshop — Version 1.0.1**
 
 © 2026 STARZISMIK
 
