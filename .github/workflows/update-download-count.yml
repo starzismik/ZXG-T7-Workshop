@@ -1,0 +1,57 @@
+name: Mettre à jour le compteur de téléchargements
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+  release:
+    types: [published, released, edited, deleted]
+
+permissions:
+  contents: write
+
+jobs:
+  update-counter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Calculer le total cumulatif
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          current_active=$(gh api --paginate "repos/${REPOSITORY}/releases?per_page=100" --jq '[.[].assets[].download_count] | add // 0' | awk '{ total += $1 } END { print total + 0 }')
+          previous_active=$(jq -r '.activeDownloads // 5' downloads-state.json)
+          archived=$(jq -r '.archivedDownloads // 10' downloads-state.json)
+
+          if [ "$current_active" -lt "$previous_active" ]; then
+            archived=$((archived + previous_active - current_active))
+          fi
+
+          total=$((archived + current_active))
+
+          jq -n \
+            --argjson archived "$archived" \
+            --argjson active "$current_active" \
+            --argjson total "$total" \
+            '{archivedDownloads: $archived, activeDownloads: $active, totalDownloads: $total}' \
+            > downloads-state.json
+
+          jq -n \
+            --arg message "$total" \
+            '{schemaVersion: 1, label: "TÉLÉCHARGEMENTS", message: $message, color: "2f80c9"}' \
+            > downloads.json
+
+      - name: Enregistrer le compteur actualisé
+        run: |
+          if git diff --quiet -- downloads.json downloads-state.json; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- downloads.json downloads-state.json
+          git commit -m "Update cumulative download count"
+          git push
