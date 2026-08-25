@@ -14,6 +14,8 @@ Analysez, organisez et gérez facilement vos maps Custom Zombies et vos mods dep
 
 </div>
 
+<!-- GitHub repository statistics refreshed 2026-08-25. -->
+
 <br>
 
 [![Release](https://img.shields.io/github/v/release/starzismik/ZXG-T7-Workshop?style=for-the-badge&color=2f80c9&label=VERSION)](../../releases/latest)
