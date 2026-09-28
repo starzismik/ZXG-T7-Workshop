@@ -1,21 +1,18 @@
 {
-    "app_name": "[ZXG] T7 Workshop",
-    "version": "1.0.1",
-    "mandatory": false,
-
-    "changelog": [
-        "Détection automatique de Black Ops III dans toutes les bibliothèques Steam",
-        "Prise en charge des installations Steam situées sur un autre disque",
-        "Amélioration de la détection du dossier Workshop associé à Black Ops III"
-    ],
-
-    "download_url": "https://github.com/starzismik/ZXG-T7-Workshop/releases/download/v1.0.1/ZXG.T7.Workshop.-.1.0.1.exe.zip",
-
-    "github_repo": "starzismik/ZXG-T7-Workshop",
-
-    "release_date": "2026-08-14",
-
-    "minimum_version": "1.0.1",
-
-    "home_content_url": "https://raw.githubusercontent.com/starzismik/ZXG-T7-Workshop/main/home_content.json"
+  "app_name": "[ZXG] T7 Workshop",
+  "version": "1.0.2",
+  "mandatory": true,
+  "changelog": [
+    "Nouvelle interface et bannière Mod Tools",
+    "Affichage Liste / Galerie avec les langues des maps et mods",
+    "Actualisation des couvertures Steam dans la bibliothèque",
+    "Sons intégrés, volume réglable et mode muet",
+    "Volume initial à 12 %, préférences sauvegardées",
+    "Mise à jour requise pour continuer lorsqu’une nouvelle version est détectée"
+  ],
+  "download_url": "https://github.com/starzismik/ZXG-T7-Workshop/releases/download/v1.0.2/ZXG.T7.Workshop.1.0.2.zip",
+  "github_repo": "starzismik/ZXG-T7-Workshop",
+  "release_date": "2026-09-28",
+  "minimum_version": "1.0.2",
+  "home_content_url": "https://raw.githubusercontent.com/starzismik/ZXG-T7-Workshop/main/home_content.json"
 }
