@@ -14,8 +14,6 @@ Analysez, organisez et gérez facilement vos maps Custom Zombies et vos mods dep
 
 </div>
 
-<!-- GitHub repository statistics refreshed 2026-08-25. -->
-
 <br>
 
 [![Release](https://img.shields.io/github/v/release/starzismik/ZXG-T7-Workshop?style=for-the-badge&color=2f80c9&label=VERSION)](../../releases/latest)
@@ -55,6 +53,8 @@ Elle propose également un système de gestion des langues pour les créations c
 - Affichage de la taille de chaque création
 - Calcul de l’espace total utilisé
 - Aperçu des maps avec leurs images Workshop
+- Affichage Liste / Galerie avec indication des langues
+- Actualisation des couvertures depuis Steam, y compris dans la bibliothèque
 - Accès direct aux articles Steam
 - Copie rapide des liens Workshop
 - Accès aux dossiers Steam, Black Ops III et Workshop
@@ -102,6 +102,18 @@ Elle propose également un système de gestion des langues pour les créations c
 - Accès au site ZXG
 - Accès au Discord ModTools France
 
+### Audio
+
+- Sons intégrés pour les clics, la navigation, le survol et le démarrage
+- Volume général réglable et option pour couper tous les sons
+- Volume initial à 12 %, puis conservation du réglage choisi
+
+### Mises à jour de l’application
+
+- Vérification au démarrage, puis toutes les 15 minutes
+- Lorsqu’une nouvelle version est détectée, mise à jour nécessaire pour continuer ou possibilité de quitter
+- Conservation des préférences dans le dossier `_zxg`
+
 ---
 
 ## Langues disponibles
@@ -127,11 +139,11 @@ La langue peut être modifiée directement depuis les paramètres.
 ## Installation
 
 1. Ouvrez la page des [releases GitHub](../../releases/latest).
-2. Téléchargez **`[ZXG] T7 Workshop - 1.0.1.exe.zip`**, puis extrayez complètement l’archive.
+2. Téléchargez **`ZXG.T7.Workshop.1.0.2.zip`**, puis extrayez complètement l’archive.
 3. Vérifiez que Steam est démarré.
 4. Lancez l’exécutable.
 
-> L’application est autonome : aucune installation supplémentaire de .NET n’est nécessaire.
+> L’application est autonome : aucune installation supplémentaire de .NET n’est nécessaire. Conservez votre dossier `_zxg` existant pour garder vos préférences et votre bibliothèque.
 
 ---
 
@@ -198,7 +210,7 @@ Windows SmartScreen peut afficher un avertissement lors du premier lancement si 
 
 Développé avec passion par **STARZISMIK**
 
-**[ZXG] T7 Workshop — Version 1.0.1**
+**[ZXG] T7 Workshop — Version 1.0.2**
 
 © 2026 STARZISMIK
 
