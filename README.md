@@ -73,6 +73,8 @@ Elle propose également un système de gestion des langues pour les créations c
 - Détection des langues présentes dans les créations
 - Prise en charge des contenus français, anglais et multilingues
 - Changement de langue pour les créations compatibles
+- Application groupée du français aux maps EN ou aux mods EN via le bouton **Appliquer le français** ou le clic droit (liste et galerie)
+- Contenus FR et multilingues préservés, avec confirmation, progression et bilan
 - Protection contre les doublons et les fichiers incohérents
 - Blocage automatique des changements incompatibles
 
@@ -210,7 +212,7 @@ Windows SmartScreen peut afficher un avertissement lors du premier lancement si 
 
 Développé avec passion par **STARZISMIK**
 
-**[ZXG] T7 Workshop — Version 1.0.2**
+**[ZXG] T7 Workshop — Version 1.0.3**
 
 © 2026 STARZISMIK
 
