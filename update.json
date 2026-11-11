@@ -1,18 +1,17 @@
 {
   "app_name": "[ZXG] T7 Workshop",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "mandatory": true,
   "changelog": [
-    "Salon Communauté avec profils, partage des créations Steam et modération réservée à l’administrateur.",
-    "Notifications sonores réglables, émojis couleur et membres en ligne.",
-    "Galerie des créations françaises synchronisée automatiquement avec la collection Steam.",
-    "Connexion au salon animée et interface améliorée.",
-    "Mise à jour obligatoire téléchargée et installée automatiquement, suivie du redémarrage de l’application.",
-    "Application du français en une action à toutes les maps ou tous les mods EN compatibles."
+    "Réactions aux messages avec un catalogue complet et trois raccourcis : 🔥 ❤️ 😍.",
+    "Réponses aux messages avec citation visible dans le fil.",
+    "Gestion des rôles Staff réservée au profil administrateur ; masquage, suppression et réaffichage des messages pour tous.",
+    "Chaque membre peut modifier ou supprimer ses propres messages, sans toucher à ceux des autres.",
+    "Menus de message habillés dans le thème de l’application et navigation Communauté rapprochée de l’Accueil."
   ],
-  "download_url": "https://github.com/starzismik/ZXG-T7-Workshop/releases/download/v1.0.4/ZXG.T7.Workshop.1.0.4.zip",
+  "download_url": "https://github.com/starzismik/ZXG-T7-Workshop/releases/download/v1.0.5/ZXG.T7.Workshop.1.0.5.zip",
   "github_repo": "starzismik/ZXG-T7-Workshop",
-  "release_date": "2026-11-10",
-  "minimum_version": "1.0.3",
+  "release_date": "2026-11-11",
+  "minimum_version": "1.0.5",
   "home_content_url": "https://raw.githubusercontent.com/starzismik/ZXG-T7-Workshop/main/home_content.json"
 }
